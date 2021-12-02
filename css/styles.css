@@ -6,8 +6,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+} 
+html, body {
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
-
 body {
   min-height: 100vh;
   overflow-x: hidden;
